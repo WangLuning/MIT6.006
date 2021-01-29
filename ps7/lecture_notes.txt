@@ -1,0 +1,19 @@
+DP:recurisve + memoization + guess all
+there is no straightforward approach or enumeration, have to guess all possible ways
+
+build the bottom up solution
+
+same meaning:
+DP subproblems
+topological sort of subproblems in DAG
+
+acyclic == topological sort == recursion
+
+subgraph dependency:
+has to be acyclic (like DFS has to record visited cells to avoid loops)
+record state: knowing about past assignments
+
+subproblems of strings/sequences:
+suffix x[i:]
+prefix x[:i]
+substrings x[i:j]

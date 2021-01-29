@@ -1,0 +1,40 @@
+Problem1-1
+(a) 
+f1(n) < O(n)
+f2(n) = O(n)
+f3{n} = exp(n)
+f4(n) = poly(n)
+
+(b)
+f1(n) = O(1)
+f2(n) = exp(n)
+f3(n) = poly(n)
+f4(n) = poly(n) < O(n*n)
+
+(c)
+f1(n) = exp(sqrt(n))
+f2(n) = exp(n)
+f3(n) = exp(n/2)
+f4(n) = poly(n)
+
+Problem1-2
+(a)
+T(n,n) = c(2n) + c(n) + ... + c(1) < 2c(2n) -> theta(n)
+
+(b)
+T(n,n) = c(n) + c(n) + ... + T(n, 1)
+= log n*c(n) + c(n) = theta(n*log n)
+
+(c)
+T(n,n) = c(n) + S(n, n/2)
+= c(n) + c(n/2) + T(n/2, n/2)
+-> theta(n)
+
+Problem1-3
+(a) Correct O(n log n)
+(b) Correct O(n^2)
+(c) no
+(d) Correct O(n) + O(n/2) + ... + O(1) = O(n)
+
+Problem 1-4
+(a) O(n log n)
